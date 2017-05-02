@@ -19,7 +19,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: docs
+public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -70,8 +70,8 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/thealigo/thealigo.github.io.git 
-  branch: gh-pages
-  #branch: master
+  #branch: gh-pages
+  branch: master
 
 livereload:
   port: 35729
